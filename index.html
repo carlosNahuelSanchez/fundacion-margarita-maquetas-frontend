@@ -11,26 +11,40 @@
   <title>Vite App</title>
 </head>
 
-<body class="bg-custom-svg bg-cover bg-bottom h-screen font-light">
+<body class="bg-custom-svg bg-cover h-screen font-light">
   <div id="app">
     <header class="flex flex-row my-1 bg-white-400 border-y border-black h-28">
       <div class="flex items-center justify-center bg-slate-400">
         <img src="src/logoPagina.svg" alt="" class="px-4" height="auto" width="370">
       </div>
-      <div class="flex justify-evenly w-screen" >
+      <div class="flex justify-start w-screen" >
         <button class="font-medium hover:font-semibold 
-        transition-all">NOVEDADES</button>
-        <button class="font-medium hover:font-semibold 
-        transition-all">METAS</button>
-        <button class="font-medium hover:font-semibold 
-        transition-all">SOBRE NOSOTROS</button>
+        transition-all ml-16">SOBRE NOSOTROS</button>
       </div>
       <div class="flex items-center mx-10">
-        <button class="whitespace-nowrap bg-yellow-400 px-8 py-3 hover:bg-yellow-500 hover:text-red-700 hover:scale-95 transition-all">CERRAR SESIÓN</button>
+        <button class="whitespace-nowrap bg-yellow-400 px-8 py-3 hover:bg-yellow-500 hover:text-white hover:scale-95 transition-all mr-9">REGISTRARSE</button>
+        <button class="whitespace-nowrap bg-yellow-400 px-8 py-3 hover:bg-yellow-500 hover:text-white hover:scale-95 transition-all">INICIAR SESIÓN</button>
       </div>
     </header>
-    <main class="flex justify-center">
-      <p class="text-black text-5xl mt-72">Contenido Principal</p>
+    <main>
+      <div class="flex justify-center">
+        <p class="text-5xl font-bold ml-7 mt-8 py-4 px-5 text-white bg-yellow-400 w-fit shadow-md shadow-yellow-300 hover:shadow-lg hover:shadow-yellow-300 transition-all">Qué es Fundación Margarita?</p>
+      </div>
+      <div class="flex flex-row justify-end items-end mt-8 mr-24 transition-colors">
+        <div class="bg-yellow-300">
+          <img src="./src/landingPageimg5.png" alt="" width="384" height="">
+        </div>
+        <div class="bg-yellow-300 p-1 pl-0">
+          <div class="flex flex-row justify-end mb-1">
+            <img src="src/landingPageimg2.jpg" alt="" height="auto" width="310">
+            <img class="mx-1" src="src/landingPageimg3.jpg" alt="" height="auto" width="310">
+            <img src="src/landingPageimg4.webp" alt="" height="auto" width="310">
+          </div>
+          <div class="flex justify-end">
+            <img src="src/landingPageimg1.jpg" alt="" height="auto" width="938">
+          </div>
+        </div>
+      </div>
     </main>
   </div>
   <script type="module" src="./src/main.js"></script>

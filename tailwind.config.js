@@ -7,7 +7,7 @@ module.exports = {
       sans: ['Montserrat', 'sans-serif'],
     },
     backgroundImage: {
-      'custom-svg': "url('src/fondoDeLogin.svg')",
+      'custom-svg': "url('src/fondoLandingPage.svg')",
     }
   },
   },
